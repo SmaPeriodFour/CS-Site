@@ -17,11 +17,12 @@ nav{
 #navigation{
     width:350px;
     text-align:center;
+	color:white;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .nav-link-dropdown-toggle{
-	color: white;
+	color:white;
 }
 #main-title{
 	font-family: 'Courier New', Courier, monospace;
