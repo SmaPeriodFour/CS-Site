@@ -14,17 +14,20 @@
   <body>
     <h1 id = "main-title">Lewis and Clark CS Club</h1>
     <nav class = "nav navbar-nav justify-content-center">
-      <div class = "container-fluid">
+      <div class = "navbar">
         <ul class = "nav nav-tabs">
           <li id ="navigation" class = "active nav-item"><a href = "homepage.html">Home</a></li>
           <li id ="navigation" class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Resources</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="resources.html">Coding Resources</a></li>
-              <li><a class="dropdown-item" href="placementQuiz.html">Placement Quiz</a></li>
-              <li><a class = "dropdown-item" href = "basics.html">Basics</a></li>
-            </ul>
-          </li>
+            <div class="dropdown">
+              <li><button class="dropbtn">Resources
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+              <a href="resources.html">Coding Resources</a>
+              <a href="placementQuiz.html">Placement Quiz</a>
+              <a href = "basics.html">Basics</a>
+            </div>
+          </div>
           <li id = "navigation"><a class = "nav-item" href = "competitions.html">Competitions</a></li>
         </ul>
     </div>
