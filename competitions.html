@@ -15,20 +15,30 @@
     <h1 id = "main-title">Lewis and Clark CS Club</h1>
     <nav class = "nav navbar-nav justify-content-center">
       <div class = "container-fluid">
-        <ul class = "nav nav-tabs">
-          <li id ="navigation" class = "active nav-item"><a href = "homepage.html">Home</a></li>
-          <li id ="navigation" class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Resources</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="resources.html">Coding Resources</a></li>
-              <li><a class="dropdown-item" href="placementQuiz.html">Placement Quiz</a></li>
-              <li><a class = "dropdown-item" href = "basics.html">Basics</a></li>
-            </ul>
-          </li>
-          <li id = "navigation"><a class = "nav-item" href = "competitions.html">Competitions</a></li>
-        </ul>
+      <ul class = "nav nav-tabs">
+        <li id ="navigation" class = "active nav-item"><a class="navLink"href = "homepage.html">Home</a></li>
+        <div class="dropdown show">
+          <a id="navigation" class="btn btn-secondary dropdown-toggle" href="#" type ="button" id="dropdownMenuButton" data-toggle ="dropdown" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div id="navigation" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="resources.html">Code Resources</a>
+          <a class="dropdown-item" href="placementQuiz.html">Placement Quiz</a>
+          <a class="dropdown-item" href="basics.html">Program Basics</a>
+          </div>
+        </div>
+       <!--<li id ="navigation" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Resources</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="resources.html">Coding Resources</a></li>
+            <li><a class="dropdown-item" href="placementQuiz.html">Placement Quiz</a></li>
+            <li><a class = "dropdown-item" href = "basics.html">Basics</a></li>
+          </ul>
+        </li>-->
+        <li id = "navigation"><a class = "nav-item navLink" href = "competitions.html">Competitions</a></li>
+      </ul>
+      </div>
     </nav>
-    </div>
     <br>
     <h1>Competitions</h1>
     <br>

@@ -17,18 +17,28 @@ nav{
 #navigation{
     width:350px;
     text-align:center;
-	color:white;
+	background-color:black;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+.navLink{
+	color:white;
+}
+/* Causing NAV to break
+
+.dropdown {
+	float: left;
+	overflow: hidde;
+  }
+  */
+  .dropdown-item{
+	background-color: white;
+  }
 .nav-link-dropdown-toggle{
 	color:black;
 }
-.dropdown {
-	float: left;
-	overflow: hidden;
-  }
-  
+
   .dropdown .dropbtn {
 	font-size: 16px;  
 	border: none;
@@ -69,6 +79,7 @@ nav{
 .dropdown:hover .dropdown-content {
 	display: block;
 }  
+
 #main-title{
 	font-family: 'Courier New', Courier, monospace;
 	color:black;
