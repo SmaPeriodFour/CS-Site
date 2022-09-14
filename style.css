@@ -17,11 +17,14 @@ nav{
 }
 #navigation{
     width:350px;
+	margin-left:50px;
+	margin-right:50px;
     text-align:center;
 	background-color:black;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
 
 .navLink{
 	color:white;
@@ -76,9 +79,6 @@ nav{
 	background-color: #ddd;
 }
   
-.dropdown:hover .dropdown-content {
-	display: block;
-}  
 
 #main-title{
 	font-family: 'Courier New', Courier, monospace;
@@ -110,10 +110,9 @@ div.bottomRow:hover{
      border-color:gray;
 }
 .homeImage{
-	margin-right:auto;
 	width: 300px;
 	height:200px;
-	text-align:center;
+	float:center !important;
 }
 .resourceImage{
 	display: block;
@@ -143,4 +142,7 @@ div.bottomRow:hover{
 .QuizResult{
 	text-align:center;
 	color:teal;
+}
+.nav-tabs{
+	border-width:0px;
 }
