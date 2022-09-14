@@ -105,6 +105,8 @@ h3,h1,h4,h6,h2{
 .bottomRow{
 	border-color: black;
 	border-width: 2px;
+	align-content:center;
+	text-align:center;
 }
 div.bottomRow:hover{
      border-color:gray;
